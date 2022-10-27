@@ -1,0 +1,154 @@
+.repo_all {
+  max-width: 770px;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(219, 219, 219, 0.959);
+  margin-top: 5%;
+  margin-left: 25%;
+  border-radius: 5px;
+  border: solid 1.5px #d3d3d3;
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 1rem;
+}
+
+.repo_img img {
+  max-width: 90px;
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.repo {
+  width: 350px;
+
+  padding: 1rem;
+  display: flex;
+  gap: 15px;
+}
+
+.repo_details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.repo_details_prt1 {
+  display: flex;
+  gap: 7px;
+}
+
+.repo_details_prt1_name {
+  font-weight: bold;
+  color: rgb(65, 86, 224);
+  font-size: 15px;
+}
+
+.repo_details_prt1_name:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.verified-avatar-icon {
+  border-radius: 50%;
+  background: rgb(75, 201, 75);
+  width: 15px;
+  height: 15px;
+  display: grid;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+.repo_details_prt2 {
+  font-size: 12px;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.repo_one_prt1 {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.repo_one_prt1_img img {
+  max-width: 100px;
+  border-radius: 50%;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.repo_one_prt1_git {
+  display: flex;
+  gap: 10px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.categories_mian_sub {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subcat {
+  padding: 0.3rem;
+  font-size: 12px;
+  border: 5px;
+  border-radius: 5px;
+  border: solid 1.4px #969696;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: rgb(87, 87, 211);
+}
+
+.repo_one_prt2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 2rem;
+  max-width: 400px;
+}
+
+.repo_one_prt2_name {
+  font-size: 30px;
+}
+
+.repo_one_prt2_btn button {
+  width: 120px;
+  height: 35px;
+  text-indent: 5px;
+  font-size: 12.6pt;
+  border-radius: 5px;
+  border: solid 1.5px #d3d3d3;
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: aliceblue;
+  font-size: 12px;
+  background-image: -webkit-linear-gradient(0deg, #009ffd 0%, #2a2a72 100%);
+}
+
+.git_text_verify {
+  font-size: 14px;
+}
+
+.repo_one_prt2_dis {
+  font-size: 14px;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.categories_main,
+.repo_one_prt2_appli {
+  color: red;
+  color: rgb(85, 84, 84);
+}
